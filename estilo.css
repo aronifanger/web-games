@@ -1,0 +1,124 @@
+/* ================================== layout ================================== */ 
+
+/* -- body -- */ 
+html, body, .capa {
+    height: 100%;
+}
+
+body{
+    background: url("imagens/ruido.png"),
+                linear-gradient(50deg, #d6a3ae, #47365f);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* -- barra navegacao -- */ 
+.img-logo {
+    height: 40px;
+    width: 50px;
+    display: block;
+    background: url("imagens/games_icon2.png") no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    color: transparent;
+    float: left;
+}
+
+.text-logo {
+    padding: 40px 0px;
+    color: white;
+}
+
+.text-logo:hover {
+    color: white;
+}
+
+nav.navbar-transparent {
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #9bf0e1;
+}
+
+/* -- imagem capa -- */ 
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.base {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+
+/* -- imagem capa -- */ 
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 13px;
+    margin: 40px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-azul{
+    background: #7c25f8;
+}
+
+.btn-azul:hover{
+    background: #6207e3;
+    color: white;
+}
+
+.btn-branco{
+    color: white;
+}
+
+.btn-branco:hover{
+    background: white;
+    color: black;
+}
+
+/* ================================== tipografia ================================== */ 
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+.text-grey {
+    color: #CCC;
+}
