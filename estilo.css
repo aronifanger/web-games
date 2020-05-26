@@ -110,6 +110,21 @@ nav.navbar-transparent {
     color: black;
 }
 
+/* -- secao jogos -- */
+#jogos {
+	background: white;
+	padding-top: 80px;
+    padding-bottom: 20px;
+    height: 100%;
+    overflow: scroll;
+}
+
+.img-game{
+    float: left;
+}
+
+
+
 /* ================================== tipografia ================================== */ 
 
 h1 {
@@ -117,6 +132,11 @@ h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
+}
+
+#jogos h1 {
+    font-size: 50px;
+    font-weight: 600;
 }
 
 .text-grey {
